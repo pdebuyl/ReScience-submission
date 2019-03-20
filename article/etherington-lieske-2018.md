@@ -167,7 +167,7 @@ and the remaining 0.368 of $d$ occurring in testing set $\{d - b\}$
 @hastie-2009. The estimated prediction error rate is then the mean
 prediction error across all bootstrap samples @efron-1983 @jain-1987.
 
-$$Err^{B} = \dfrac{\sum\limits_{b=1}^{B}\sum\limits_{{i \in \{ d-b \} }}| y_i - f^{(b)}(x_i) |}{\sum\limits_{b=1}^{B} \sharp \{ d-b \}}$$ {#eq:6}
+$$Err^{B} = \frac{\sum\limits_{b=1}^{B}\sum\limits_{{i \in \{ d-b \} }}| y_i - f^{(b)}(x_i) |}{\sum\limits_{b=1}^{B} \sharp \{ d-b \}}$$ {#eq:6}
 
 It is worth noting in the context of a replication study that the
 equation used to calculate $Err^{B}$ was later changed, as this caused
